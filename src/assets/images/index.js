@@ -1,0 +1,5 @@
+export { default as EvergreenIcon } from './EvergreenIcon.jpeg'
+export { default as EvergreenPan } from './EvergreenPan.jpeg'
+export { default as ProfilePic } from './ProfilePic.jpeg'
+export { default as ScreenShot } from './ScreenShot.png'
+export { default as Resume } from './Resume.pdf'

@@ -1,0 +1,157 @@
+body {
+  background-color: #871A11;
+  font-family: Poppins, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/* Profile Picture Styling*/
+img {
+  width: 300px;
+  height: 150px;
+  object-fit: cover;
+  object-position: 5px 10%;
+  border-radius: 60px;
+}
+/* Header Section styling */
+nav {
+  display: flex;
+}
+
+nav a {
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Container Class Styling */
+.container {
+  width: 1000px;
+ 
+  margin: 20px;
+  border: 5px solid;
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  color: white
+}
+/* Header Link Syling */
+a {
+  color: whitesmoke;
+}
+/* Header Styling */
+.column {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  font-size: larger;
+}
+
+.column-left {
+  flex-wrap: wrap;
+  justify-content: start;
+
+}
+
+.row {
+  display: flex;
+  flex: 0 2 100%;
+  flex-wrap: wrap;
+
+}
+
+.row-sections {
+  margin-top: 10px;
+  display: flex;
+  flex: 0 0 100%;
+  justify-content: flex-end;
+  gap: 10rem;
+  font-size: larger;
+}
+
+.row-sections:hover {
+font-style: italic;
+}
+
+/* Project Styling */
+.column-project {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.column-project-half {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 1rem;
+}
+
+/* Project 1 picture styling */
+.column-project img {
+  width: 900px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  border-radius: 60px;
+}
+/* Prject 2-5 image styling */
+.column-project-half img {
+  width: 150px;
+  height: 150px;
+  border-radius: 150px;
+}
+
+.p {
+  text-align: center;
+}
+/* Contact Section Styling */
+.column-contact {
+  margin-top: 10px;
+  display: flex;
+  flex: 0 0 100%;
+  justify-content: center;
+  gap: 4rem;
+}
+/* Responsive Styling */
+@media screen and (max-width: 1062px) {
+.container {
+  width: 890px; 
+}
+.column-project img {
+  width: 850px;
+}
+  main,
+  nav {
+      flex-direction: column;
+  }
+
+  .column-project-half {
+      flex-direction: column;
+
+  }
+  .column-contact {
+      flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+      width: 440px; 
+  }
+  .column-project img {
+      width: 420px;
+  }
+  main,
+  nav {
+      flex-direction: column;
+  }
+
+  .column-project-half {
+      flex-direction: column;
+  }
+  .column-contact {
+      flex-direction: column;
+  }
+}
+
+footer {
+  font-family: "Brush Script MT", cursive;
+  color: #57C2C2;
+}
