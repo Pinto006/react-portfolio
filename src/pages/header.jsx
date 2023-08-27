@@ -2,7 +2,7 @@ export { default as Header } from 'react'
 
 function Header() {
     return (
-      <>
+    <>
 <header className="container">
 <div className="row">
     <div className="column">
