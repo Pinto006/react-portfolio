@@ -1,6 +1,7 @@
 export { default as Footer } from 'react'
 import Resume  from '../assets/images/Resume.pdf'
 
+
 function Footer() {
 
     return (

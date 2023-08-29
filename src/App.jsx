@@ -2,6 +2,7 @@ import './App.css'
 import { EvergreenIcon, EvergreenPan, ProfilePic } from './assets/images'
 import Header from './pages/header'
 import Footer from './pages/footer'
+import Form from './pages/form'
 
 function App() {
 
@@ -38,6 +39,7 @@ function App() {
     <section className="container">
         <div id="Contact Me">
             <h3>Contact Me!</h3>
+            <Form></Form>
         </div>
     </section>
     <Footer></Footer>
